@@ -21,7 +21,6 @@ orangehrm_project/
 │   └── php.ini            # custom PHP settings
 ├── backup.sh
 └── README.md
----
 
 ## 🧱 OrangeHRM Docker Setup (Localhost)
 
