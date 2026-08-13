@@ -7,25 +7,38 @@ OrangeHRM is a flexible HR management platform offering both a free open-source 
 - Supports enterprise HR functions like employee management, payroll, recruitment, performance appraisal, and more.
 
 
-## 📦 Dependencies
+## 📂 Folder Structure
 
-•	PHP 7+
-•	MySQL or MariaDB
-•	Apache/Nginx
-•	Optional: Bootstrap or Tailwind CSS for styling
+orangehrm_project/
+├── Dockerfile
+├── docker-compose.yaml
+├── apache/
+│   └── orangehrm.conf
+├── certs/
+│   ├── fullchain.pem      # self-signed cert (public)
+│   ├── privkey.pem        # self-signed cert (private)
+├── config/
+│   └── php.ini            # custom PHP settings
+├── backup.sh
+└── README.md
 
 
-## 🧱 File Structure
+## 🧱 OrangeHRM Docker Setup (Localhost)
 
-- dashboard.php # Main dashboard interface
-- order.php # Order listing page
-- carts.php # Carts overview page
-- db.php # Database connection
-- header.php # Shared header layout
-- footer.php # Shared footer layout
-- assets/ # CSS, JS, images
-- README.md # Project documentation
-
+## Steps
+1. Clone this folder: `orangehrm_project/`
+2. Build and run:
+   ```bash
+   cd orangehrm_project
+   docker compose up -d --build
+   ```
+3. Access OrangeHRM:
+HTTP: http://localhost/ohrm
+HTTPS: https://localhost/ohrm (self-signed certs in certs/)
+4. Backup database:
+   ```bash
+   ./backup.sh
+   ```
 
 ## 🧠 Credits & Vision
 
