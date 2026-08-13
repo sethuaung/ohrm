@@ -1,11 +1,11 @@
-# DWD58
+# OrangeHRM Overview
 
-Project for Diploma in Web Development
+OrangeHRM is a flexible HR management platform offering both a free open-source edition and paid cloud plans, with modular features covering recruitment, onboarding, performance, leave, and core HR. Prices start at free for the Starter edition, while Advanced cloud plans are custom‑quoted per employee per month (PEPM).
 
-## 🚀 Features
+- OrangeHRM is a web-based Human Resource Management System (HRMS).
+- Runs on the AMP stack: `Apache`, `MariaDB`, `PHP`
+- Supports enterprise HR functions like employee management, payroll, recruitment, performance appraisal, and more.
 
-- Dynamic dashboard with real-time data display
-- Modular pages: `dashboard.php`, `order.php`, `carts.php`
 
 ## 📦 Dependencies
 
