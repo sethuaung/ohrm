@@ -15,26 +15,26 @@ OrangeHRM is a flexible HR management platform offering both a free open-source 
 
 ## 📦 Modules Available in Demo
 
-Admin → User management, roles, permissions
-PIM (Personnel Information Management) → Employee records, job details, reporting structure
-Leave → Leave requests, approvals, accruals
-Time → Timesheets, project tracking
-Recruitment → Job postings, candidate applications, interview scheduling
-Performance → Appraisals, KPIs, performance reviews
-Dashboard → Quick access to employee stats, leave balances, and announcements
+- Admin → User management, roles, permissions
+- PIM (Personnel Information Management) → Employee records, job details, reporting structure
+- Leave → Leave requests, approvals, accruals
+- Time → Timesheets, project tracking
+- Recruitment → Job postings, candidate applications, interview scheduling
+- Performance → Appraisals, KPIs, performance reviews
+- Dashboard → Quick access to employee stats, leave balances, and announcements
 
 ## 🌟 Benefits of Using Demo
 
-Hands-on exploration: Test workflows without setup.
-Training tool: Ideal for classroom demos or onboarding HR staff.
-Safe sandbox: Experiment with features without affecting production data.
-Feature comparison: Evaluate open-source vs. paid cloud editions.
+- Hands-on exploration: Test workflows without setup.
+- Training tool: Ideal for classroom demos or onboarding HR staff.
+- Safe sandbox: Experiment with features without affecting production data.
+- Feature comparison: Evaluate open-source vs. paid cloud editions.
 
 ## 💰 Pricing Context
 
-Starter (Open Source): Free, self-hosted (like the demo).
-Advanced Cloud: Custom per-employee-per-month pricing, includes recruitment, performance, leave, time, and mobile access.
-Enterprise Support: Tailored pricing for implementation, training, and premium support.
+- Starter (Open Source): Free, self-hosted (like the demo).
+- Advanced Cloud: Custom per-employee-per-month pricing, includes recruitment, performance, leave, time, and mobile access.
+- Enterprise Support: Tailored pricing for implementation, training, and premium support.
 
 ---
 
