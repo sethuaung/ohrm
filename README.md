@@ -6,6 +6,9 @@ OrangeHRM is a flexible HR management platform offering both a free open-source 
 - Runs on the AMP stack: `Apache`, `MariaDB`, `PHP`
 - Supports enterprise HR functions like employee management, payroll, recruitment, performance appraisal, and more.
 
+## OHRM Demo
+
+- Demo site : https://opensource-demo.orangehrmlive.com/
 
 ## 📂 Structure
 
@@ -22,7 +25,9 @@ orangehrm_project/
 ├── backup.sh
 └── README.md
 
+
 ## 🧱 OrangeHRM Docker Setup (Localhost)
+
 
 ## 🚀 Usage Summary
 1. Clone this folder: `orangehrm_project/`
