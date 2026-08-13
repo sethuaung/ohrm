@@ -7,20 +7,21 @@ OrangeHRM is a flexible HR management platform offering both a free open-source 
 - Supports enterprise HR functions like employee management, payroll, recruitment, performance appraisal, and more.
 
 
-## 📂 Folder Structure
+## 📂 Structure
 
+orangehrm_project/
+├── Dockerfile
+├── docker-compose.yaml
+├── apache/
+│   └── orangehrm.conf
+├── certs/
+│   ├── fullchain.pem      # self-signed cert (public)
+│   ├── privkey.pem        # self-signed cert (private)
+├── config/
+│   └── php.ini            # custom PHP settings
+├── backup.sh
+└── README.md
 
-| **[File/Folder](ca://s?q=OrangeHRM_Docker_files)** | **Purpose** |
-|----------------------------------|------------------------------------------------|
-| **[Dockerfile](ca://s?q=OrangeHRM_Dockerfile)** | Builds the Apache + PHP environment with required modules and SSL support |
-| **[docker-compose.yaml](ca://s?q=OrangeHRM_docker_compose)** | Defines services: web (Apache/PHP) and db (MariaDB) |
-| **[apache/orangehrm.conf](ca://s?q=OrangeHRM_Apache_config)** | Apache VirtualHost configuration for `localhost/ohrm` |
-| **[certs/](ca://s?q=OrangeHRM_SSL_certs)** | Stores SSL certificates for HTTPS access |
-| **[config/php.ini](ca://s?q=OrangeHRM_php_ini)** | Custom PHP settings optimized for OrangeHRM |
-| **[backup.sh](ca://s?q=OrangeHRM_backup_script)** | Script to back up MariaDB database manually or via cron |
-| **[README.md](ca://s?q=OrangeHRM_README)** | Documentation and usage instructions |
-
----
 
 ## 🧱 OrangeHRM Docker Setup (Localhost)
 
